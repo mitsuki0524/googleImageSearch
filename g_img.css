@@ -1,0 +1,147 @@
+
+
+body{
+	margin: 0;
+	background: #3498db;
+	font-family: sans-serif;
+}
+
+#header {
+	margin-bottom: 17px;
+	text-align: center;
+	background: #2980b9;
+}
+
+#tittle {
+	color: #eee;
+	font-size: 80px;
+	font-weight: 900;
+	letter-spacing: 4px;
+} 
+
+
+#google_imgSrc {
+	position: relative;
+	margin: 0 auto;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden
+}
+
+.img_a {
+	float: left;
+	margin: 0 0 20px 17px;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	max-height: 300px;
+	visibility: hidden;
+	border: 5px solid #fff;
+		}.img_a > a > img {
+		display: block;
+		border:0;
+		}.img_a>span{
+		display: none;
+		}
+
+.infoWindow {
+	background: #2980b9;
+	margin: 10px 0 20px 0;
+	position: relative;
+	padding: 20px;
+	clear: both;
+	zoom: 100%;
+
+	}.infoWindow .posMarker {
+		display: block;
+		position: absolute;
+		top: -23px;
+		color: #fff;
+		font-size: 18px;
+	}.infoWindow .imgWrap {
+		float: left;
+		width: 40%;
+		padding-right: 40px;
+		margin-bottom: 20px;
+		margin-left: 20px;
+		border-right: solid 2px #fff;
+		position: relative
+		}.infoWindow .imgWrap .display {
+			display: block;
+			border: #fafafa 10px solid;
+			width: 100%;
+			position: relative;
+		}
+	
+	.infoWindow .img_info {
+		float: left;
+		color: #333;
+		border-radius: 5px;
+		padding-left: 10px;
+		width: 40%;
+		font-size: 15px;
+	}.infoWindow h3 {
+		font-size: 27px;
+		margin-top: 0;
+		color: #eee;
+		margin-bottom: 10px;
+	}
+		
+	.infoWindow .imgurl {
+		clear: both;
+		margin-top: 20px;
+		text-align: right;
+		}.infoWindow .imgurl a {
+			color: #111;
+			text-decoration: none;
+			font-size: 15px;
+			font-weight: 900;
+		}
+	
+	.infoWindow::after {
+		content: "";
+		zoom: 100%;
+		clear: both;
+		display: block;
+	}
+	
+	.infoWindow .close {
+		position: absolute;
+		font-size: 12px;
+		text-decoration: none;
+		color: #567;
+		font-weight: 900;
+		background: #fff;
+		padding: 5px;
+		right: 20px;
+	}.infoWindow .close:hover {
+		color: #5f6f7f;
+		background: #89a;
+	}
+	
+#loading{
+transition: 1s linear;
+background: #111;
+width:100%;
+height:100%;
+z-index: 10;
+position: fixed;
+}.barBody{
+margin: auto;
+overflow: hidden;
+}.barBody .bar {
+transition: 0.5s;
+letter-spacing: -4px;
+color: #c0392b;
+height: 50px;
+line-height: 1;
+width: 50px;
+background: url(http://mi2log.com/common_img/ajax-loader_l_k.gif)no-repeat;
+}.precount {
+text-align: center;
+color: #fff;
+}#preload {
+position: relative;
+top: 50%;
+margin: auto;
+}
